@@ -34,5 +34,7 @@ namespace BubbleSortLibraryTests
             var sorting = new BubbleSorting();
             Assert.That(sorting.BubbleSort(subject), Is.EqualTo(expectedResult));
         }
+
+        // Add a test which checks an index has a specific number from after being sorted.
     }
 }
